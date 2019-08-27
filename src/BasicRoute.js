@@ -10,16 +10,15 @@ function BasicRoute() {
       <div>
         <ul>
           <li>
-            <Link to="/city">City</Link>
+            <Link to="/city">郵遞區號</Link>
           </li>
           <li>
-            <Link to="/finalCode">FinalCode</Link>
+            <Link to="/finalCode">終極密碼</Link>
           </li>
           <li>
-            <Link to="/message">Message</Link>
+            <Link to="/message">簡易留言</Link>
           </li>
         </ul>
-
         <hr />
         <Route path="/city" component={City} />
         <Route path="/finalCode" component={FinalCode} />

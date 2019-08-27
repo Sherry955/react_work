@@ -51,13 +51,8 @@ class Message extends React.Component{
     }  
 
     render(){      
-        const style1 = {
-            margin:'0px auto',
-            align:'center',
-            height:'100px'
-          };
         return(          
-            <div style={style1}>
+            <div>
                <input type='text' onBlur={this.handleName} placeholder="請輸入名字"/>
                <input type='text'onBlur={this.handleMsg} placeholder="請輸入訊息"/>
                <button onClick={this.handleChange}>送出</button>
